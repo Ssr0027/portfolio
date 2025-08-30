@@ -450,11 +450,15 @@ span{
     .about{
         flex-direction: column;
     }
-    .about-img img {
-        width: 70vw;
-        margin-top: 4rem;
+.about-img img {
+  width: 300px;     /* adjust as needed */
+  height: auto;     /* keeps aspect ratio */
+  border-radius: 12px; /* optional: gives rounded corners */
+  object-fit: cover;  /* prevents stretching */
+  display: block;
+  margin: 0 auto;   /* centers the image */
+}
 
-    }
     .Skills h2{
         margin-bottom: 3rem;
     }
